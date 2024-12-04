@@ -1,3 +1,4 @@
+class_name MaterialButton
 extends Button
 
 # 
@@ -9,8 +10,9 @@ func _ready() -> void:
 	self.pressed.connect(add_some_materials)
 	
 	if (!crafting_material):
-		crafting_material = MaterialsSingleton.all_materials.pick_random()
 		is_random = true
+		crafting_material = MaterialsSingleton.all_materials.pick_random()
+		
 	
 	if (!is_random):
 		self.text = "ADD " + crafting_material.name

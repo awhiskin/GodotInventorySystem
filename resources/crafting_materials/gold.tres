@@ -5,6 +5,6 @@
 
 [resource]
 script = ExtResource("1_f8xrt")
-is_harvestable = true
-value = 100.0
+is_harvestable = false
+value = 1000.0
 inventory_icon = ExtResource("1_qyp01")

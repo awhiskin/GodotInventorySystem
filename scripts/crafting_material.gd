@@ -1,6 +1,7 @@
 class_name CraftingMaterial
 extends Resource
 
+# Add as many or as few properties as you'd like.
 @export var is_harvestable: bool = true
 @export var value: float = 1.0
 @export var inventory_icon: Texture2D

@@ -1,9 +1,11 @@
 extends Node
 
+## Stores all CraftingMaterials
 var all_materials: Array[CraftingMaterial]:
 	get:
 		return load_resources()
 
+## Loads all CraftingMaterials within the resources/crafting_materials folder
 func load_resources() -> Array[CraftingMaterial]:
 	var materials: Array[CraftingMaterial]
 	

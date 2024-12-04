@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://bq6f7tc52pnvw"]
+
+[ext_resource type="Script" uid="uid://di3ba1heg6mra" path="res://scripts/material_button.gd" id="1_j6i4b"]
+
+[node name="button" type="Button"]
+focus_mode = 0
+mouse_default_cursor_shape = 2
+theme_override_constants/icon_max_width = 48
+text = "resource"
+script = ExtResource("1_j6i4b")
