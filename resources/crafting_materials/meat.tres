@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CraftingMaterial" load_steps=3 format=3 uid="uid://cfyolkd7y2hmd"]
+
+[ext_resource type="Texture2D" uid="uid://crc4ybjum1ps7" path="res://sprites/meat.png" id="1_1b5dr"]
+[ext_resource type="Script" uid="uid://b41unh8xeywlu" path="res://scripts/crafting_material.gd" id="1_dnocl"]
+
+[resource]
+script = ExtResource("1_dnocl")
+is_harvestable = true
+value = 2.0
+inventory_icon = ExtResource("1_1b5dr")

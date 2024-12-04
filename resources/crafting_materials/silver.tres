@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CraftingMaterial" load_steps=3 format=3 uid="uid://kjkn7h5v8qqs"]
+
+[ext_resource type="Texture2D" uid="uid://5kbla28h1yv8" path="res://sprites/silver.png" id="1_ig2os"]
+[ext_resource type="Script" uid="uid://b41unh8xeywlu" path="res://scripts/crafting_material.gd" id="1_lw5j5"]
+
+[resource]
+script = ExtResource("1_lw5j5")
+is_harvestable = true
+value = 50.0
+inventory_icon = ExtResource("1_ig2os")
